@@ -186,7 +186,7 @@ What is the distribution of t-squared?
  * Beta
  * Bivariate Normal
 
->> Square of the **t-distribution** is the **F-distribution**.  :simple_smile: [Source](https://en.wikipedia.org/wiki/Student%27s_t-distribution#Relation_to_F-distribution)
+>> Square of the **t-distribution** is the **F-distribution**. [Source](https://en.wikipedia.org/wiki/Student%27s_t-distribution#Relation_to_F-distribution)
 
 ***
 
