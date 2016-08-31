@@ -9,7 +9,15 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
->> list directory: ```ls```
+>> list directory: `ls`  
+remove file: `rm`  
+change directory: `cd`
+make directory: `mkdir`
+copy file: `cp`
+move file: `mv`
+read last few lines of a large file: `tail`
+read first few lines of a large file: `head`
+
 
 ---
 
