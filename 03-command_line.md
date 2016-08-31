@@ -39,10 +39,10 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > `ls -u`	sort by last access time  
-``  
-``  
-``  
-``  
+`ls -g` list while excluding the name of the file owner   
+`ls -R` display subdirectories as well  
+`ls -c` display files/directories as a comma-separated list  
+`ls -1` display files/directories as one vertical list rather than multiple columns/rows of file names  
 ---
 
 ###Q4.  Xargs   
