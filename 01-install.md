@@ -48,7 +48,7 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> I have *Python 2.7.11 :: Anaconda 2.1.0 (x86_64)* already installed for previous projects. I was not aware of a new version, but I will look up the differences.
+>> I have *Python 2.7.11 :: Anaconda 2.1.0 (x86_64)* already installed on my Mac for previous works. I was not aware of a new version, but I will look up the differences.
 
 ###Q2. Which Python Version Installed   
 
