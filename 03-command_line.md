@@ -43,13 +43,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 `ls -R` display subdirectories as well  
 `ls -c` display files/directories as a comma-separated list  
 `ls -1` display files/directories as one vertical list rather than multiple columns/rows of file names  
+
 ---
 
 ###Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > My understand is that xargs can be used to achieve a similar effect to a loop by running a command appended to the output of the previous command. For example: If we type the command `echo 1 2 3`, the output will be `1 2 3`. We can use xarg to concisely tell the program to output `Student` in front of each number by typeing `echo 1 2 3| xargs -n 1 echo Student`.
 
  
 
