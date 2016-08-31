@@ -173,7 +173,7 @@ What is the most installed language in the world?
 - Spark
 - Javascript
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> is it *Python*? :confused:
 
 -
 
@@ -186,7 +186,7 @@ What is the distribution of t-squared?
  * Beta
  * Bivariate Normal
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Square of the **t-distribution** is the **F-distribution**.  :simple_smile: [Source](https://en.wikipedia.org/wiki/Student%27s_t-distribution#Relation_to_F-distribution)
 
 ***
 
@@ -194,10 +194,10 @@ What is the distribution of t-squared?
 In the scikit-learn's official source repo, about how many issues are outstanding? (go ahead and check out their page)  
 1. 7  
 2. 70  
-3. 700  
+3. **700**  
 4. 7000  
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> *796* as of Aug. 30, 2016
 
 ---
 
