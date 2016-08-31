@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python lists and tuples are both data structures that allow us to store ordered/indexed collections of values. However, once a tuple is created, they are immutable (cannot be sorted, appended, trimmed, etc.), while lists are mutable after it is created. Storing things in tuples allows Python to more efficiently process the data structure, if one does not wish to ever modify the data structure. We can think of dictionaries as lists of tuples that are size 2 (key-value pairs).
 
 ---
 
