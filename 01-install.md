@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I have Python *Python 2.7.11 :: Anaconda 2.1.0 (x86_64)* already installed for previous projects. I was not aware of a new version, but I will look up the differences.
+>> I have *Python 2.7.11 :: Anaconda 2.1.0 (x86_64)* already installed for previous projects. I was not aware of a new version, but I will look up the differences.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-You can check the python verions by going to the command line and typing  
+>> You can check the python verions by going to the command line and typing  
 ```
 python -V
 ```
