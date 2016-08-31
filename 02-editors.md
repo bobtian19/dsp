@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use nano, since that is the editor I used during my PhD. I had to use vim before that. As soon as I learned about nano, I switched over because vim is much less intuitive. Even though I had been using vim for a year prior to the switch, I was able to use nano more efficiently after the first day...I hate vim...
 
 --
 
@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I am unfamiliar with these graphical editors. I had mostly used WingIDE and IDLE. IDLE is extremely barebone, and looks like it's just a text editor that can color Python codes and run them in shell. I will probably continue to use WingIDE, as it is what I am familiar with. It is dedicated to Python, and has a customizable workspace (other IDEs probably do as well). It has a good debugger that I'm use to. It can also emulate keybindings of other editors like vim (a feature I will probably not pursue). I'm not much of a power user, so I don't have any customizations aside from where the windows are docked.
 
  
