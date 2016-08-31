@@ -24,15 +24,13 @@ looking up files that contain certain strings: `grep`
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  list files in the current directory  
+`ls -a`  list all files (including hidden ones) in the current directory  
+`ls -l`  list files in the directory along with some file info for each of them such as read/write permissions, file size, date modified etc.  
+`ls -lh`  same as above, but with the file size abbreviated by units  
+`ls -lah`  same as -lh, but with **all** file info available listed  
+`ls -t`  same as -l, but sorts the list output by modification time  
+`ls -Glp`  same as -l, lists directories with '/' appended at the end to distinguish it from other files. Also color them blue  
 
 ---
 
@@ -40,8 +38,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > `ls -u`	sort by last access time  
+``  
+``  
+``  
+``  
 ---
 
 ###Q4.  Xargs   
