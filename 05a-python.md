@@ -40,7 +40,17 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions is a more concise way to create lists. For example, if we want to create a list that is a duplicate of `listX = [1, 3, 4, 9, 2]`, but with every number cubed, we can either use a for-loop:  
+```Python  
+listY = []  
+for x in listX:  
+  listY.append(x**3)  
+```  
+or we can use list comprehension and simply write `listY = [x**3 for x in listX]`. Another way to view it is that we are concisely writing a for-loop inside the list assignment statement.  
+Another way to do the same thing is to use the `map` function: `listY = map(lambda x: x**3, listX)`, which will apply the cube function onto `listX` and assign it to `listY`.  
+We can also use list comprehension to create a list that only contains elements of the first list that satisfies a certain criterion:  
+`listY = [x for x in listX if x > 3]`  
+Another way to perform this task to use the `filter` function: `listY = filter(lambda x: x > 3, listX)`.  
 
 ---
 
