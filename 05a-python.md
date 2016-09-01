@@ -32,7 +32,7 @@ Since sets are unordered, it's much more efficent to perform set operations such
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> `lambda` is an expression used to create an anonymous function in Python. This is useful when one wants to concisely apply a function to an iterable. For example, if we want to sort a list of words `listX = ['Apple', 'Banana', 'orange', 'GRAPEFRUIT]`, but we want to sort it by their first 3 letters (case-insensitive), we can do it with the line `sorted(listX, key = lambda x: lower(x[0:2]))`. Here, we essentially created an anonymous functiont that takes string `x`, and extracts the first 3 letters transformed into lower-case, and then mapped this function to each of the string in the list `listX` as the criterion for sorting the entries.
 
 ---
 
