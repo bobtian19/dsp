@@ -122,7 +122,12 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    i_not = s.find('not')
+    i_bad = s.find('bad')
+    if i_not == -1 or i_bad == -1 or i_not > i_bad:
+        print(s)
+    else:
+        print(s.replace(s[i_not:i_bad+3],'good'))
 
 
 def front_back(a, b):
@@ -141,4 +146,12 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    import math
+
+    a_front = a[:int(math.ceil(len(a)/2.0))]
+    a_back = a[-int(math.floor(len(a)/2.0)):]
+    
+    b_front = b[:int(math.ceil(len(b)/2.0))]
+    b_back = b[-int(math.floor(len(b)/2.0)):]    
+    
+    print(a_front + b_front + a_back + b_back)
