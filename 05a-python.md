@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Python lists and tuples are both data structures that allow us to store ordered/indexed collections of values. However, once a tuple is created, they are immutable (cannot be sorted, appended, trimmed, etc.), while lists are mutable after it is created. Storing things in tuples allows Python to more efficiently process the data structure, if one does not wish to ever modify the data structure. We can mimic a dictionary with a list of immutable 2-entry-tuples (key-value pairs).
+>> Python lists and tuples are both data structures that allow us to store ordered/indexed collections of values. However, once a tuple is created, they are immutable (cannot be sorted, appended, trimmed, etc.), while lists are mutable after it is created. Storing things in tuples allows Python to more efficiently process the data structure, if one does not wish to ever modify the data structure. We can mimic a dictionary with a list of immutable 2-entry-tuples (key-value pairs). The difference is that this structure is slower to access than a dedicated Python data structure of a dictionary.
 
 ---
 
@@ -24,7 +24,7 @@ How are Python lists and sets similar and different? Give examples of using both
 Example:  
 Store numbers as an ordered list: `listX = [4, 8, 15, 16, 23 42]`  
 Store numbers as an unorderd set: `setX = {4, 8, 15, 16, 23 42}`  
-Since sets are unordered, it's much more efficent to perform set operations such as finding unions and intersection. 
+Since sets are unordered, it's much more efficent to perform set operations such as finding unions and intersection. It also conforms with the mathematical concept of sets in that it does not store duplicate values, which can be useful in some situations.
 
 ---
 
@@ -51,7 +51,23 @@ Another way to do the same thing is to use the `map` function: `listY = map(lamb
 We can also use list comprehension to create a list that only contains elements of the first list that satisfies a certain criterion:  
 `listY = [x for x in listX if x > 3]`  
 Another way to perform this task to use the `filter` function: `listY = filter(lambda x: x > 3, listX)`.  
-
+  
+Set comprehension works the same way. Imagine we want to create a set that is the cube of every number in the list `listX = [1, 2, 3, 4]`, the long way using loops is to do the following:  
+```Python  
+setX = set()  
+for x in listX:  
+  setX.add(x**3)  
+```  
+Set comprehension allows us to do this by simply writing `setX = {x**3 for x in listX}`, completely analogous to list comprehensions.  
+    
+Likewise, dictionary comprehensions is a more concise way to create a dictionary. For example, if we want to create a dictionary of key-value pairs from a list of tuples `listX = [(1,'one'),(2,'two'),(3,'three'),(4,'four'), (5,'five')]` we can use a loop:  
+```Python  
+dictX = {}  
+for num, txt in listX:  
+  dictX[num] = txt  
+```  
+The more elegant way is to write  
+`dict = {num:txt for num, txt in list}`  
 ---
 
 ###Complete the following problems by editing the files below:
