@@ -51,7 +51,6 @@ Another way to do the same thing is to use the `map` function: `listY = map(lamb
 We can also use list comprehension to create a list that only contains elements of the first list that satisfies a certain criterion:  
 `listY = [x for x in listX if x > 3]`  
 Another way to perform this task to use the `filter` function: `listY = filter(lambda x: x > 3, listX)`.  
-  
 Set comprehension works the same way. Imagine we want to create a set that is the cube of every number in the list `listX = [1, 2, 3, 4]`, the long way using loops is to do the following:  
 ```Python  
 setX = set()  
@@ -59,7 +58,6 @@ for x in listX:
   setX.add(x**3)  
 ```  
 Set comprehension allows us to do this by simply writing `setX = {x**3 for x in listX}`, completely analogous to list comprehensions.  
-    
 Likewise, dictionary comprehensions is a more concise way to create a dictionary. For example, if we want to create a dictionary of key-value pairs from a list of tuples `listX = [(1,'one'),(2,'two'),(3,'three'),(4,'four'), (5,'five')]` we can use a loop:  
 ```Python  
 dictX = {}  
