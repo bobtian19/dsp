@@ -66,6 +66,7 @@ for num, txt in listX:
 ```  
 The more elegant way is to write  
 `dict = {num:txt for num, txt in list}`  
+  
 ---
 
 ###Complete the following problems by editing the files below:
