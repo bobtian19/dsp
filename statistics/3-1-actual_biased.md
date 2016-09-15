@@ -41,4 +41,4 @@ It produced the following print-out:
 Mean of the biased distribution:2.40367910066
 Mean of the actual distribution:1.02420515504
 ```
-The mean of the two pmf illustrates that when surveying children of households, the resulting distribution is biased towards larger households.
+The means and the two pmf illustrate that when surveying children of households, the resulting distribution is biased towards larger households.
