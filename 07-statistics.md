@@ -76,8 +76,9 @@ P(identical twins | boys twins) = P(boy twins| identical twins) P(identical twin
 P(boy twins| identical twins) = 1/2 (let's assume equal chance of boy-boy and girl-girl identical twins)  
 P(identical twins) = 1/300  
 P(boy twins) = P(boy fraternal twins) + P(boy identical twins) = (1/4)(1/125) + (1/2)(1/300) = 1/500 + 1/600 = 11/3000  
-Therefore  
-P(identical twins | boys twins) = (1/2)(1/300)/(11/3000) = (1/600)/(11/3000) = 3000/6600 = 5/11 ~ 45.45%
+
+P(identical twins | boys twins) = (1/2)(1/300)/(11/3000) = (1/600)/(11/3000) = 3000/6600 = 5/11 ~ 45.45%  
+
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
