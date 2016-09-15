@@ -23,4 +23,4 @@ It produced the following print-out:
 
 <img src="Ex42.png" title="Ex42"/>
 
-The PMF for a uniform random distribution should be y = 1 for x in the range [0,1]. The CDF for a uniform random distribution is y = x for x in the range [0,1]. The plot output from the program above shows that the generated sample of 1000 numbers were indeed drawn from a uniform random distribution.
+The PMF for a uniform random distribution should be the horizontal line y = 1/N for x in the range [0,1]. The CDF for a uniform random distribution is y = x for x in the range [0,1]. The plot output from the program above shows that the generated sample of 1000 numbers were indeed drawn from a uniform random distribution.
