@@ -84,7 +84,9 @@ P(identical twins | boys twins) = (1/2)(1/300)/(11/3000) = (1/600)/(11/3000) = 3
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> My understanding is that Bayesian statistics incorporate prior beliefs as a baseline statistical distribution before sampling, and adjust these priors upon arrival of sampling data. Whereas a frequentist would bootstrap a distribution from the initial sampling of the population. The Bayesian approach reduces *noise* in the data through the use of more specific estimators (arrived at by incorporating prior belief to the sampling phase), while the Frequentist approach reduces the *biase* by not including information not available in the dataset.
+>> My understanding is that Bayesian statistics incorporate prior beliefs as a baseline statistical distribution before sampling, and adjust these priors upon arrival of sampling data. Whereas a frequentist would bootstrap a distribution from the initial sampling of the population.  
+
+The Bayesian approach reduces *noise* in the data through the use of more specific estimators (arrived at by incorporating prior belief to the sampling phase), while the Frequentist approach reduces the *biase* by not including information not available in the dataset.
 
 ---
 
