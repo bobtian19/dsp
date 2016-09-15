@@ -29,3 +29,4 @@ Which produced the following output:
 Effect size of being first-born on birth weight is:-0.0750165286963
 Effect size of being first-born on pregnancy length is:0.0139171938336
 ```
+ Although the Cohen's D for birth weights between the two groups is larger than the same measure for pregnancy length, neither statistics have magnitudes above 1. This means that the difference between the two groups means are much smaller than the respective standard deviations.
