@@ -35,7 +35,7 @@ print('Mean of the biased distribution:' + str(biased_pmf.Mean()))
 print('Mean of the actual distribution:' + str(actual_pmf.Mean()))
 ```
 It produced the following print-out
-<img src="Ex31.jpg" title="Ex31"/>
+<img src="Ex31.png" title="Ex31"/>
 ```
 Mean of the biased distribution:2.40367910066
 Mean of the actual distribution:1.02420515504
