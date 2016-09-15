@@ -34,7 +34,8 @@ thinkplot.Show(xlabel='number of children under 18', ylabel='PMF')
 print('Mean of the biased distribution:' + str(biased_pmf.Mean()))
 print('Mean of the actual distribution:' + str(actual_pmf.Mean()))
 ```
-It produced the following print-out
+It produced the following print-out:  
+
 <img src="Ex31.png" title="Ex31"/>
 ```
 Mean of the biased distribution:2.40367910066
